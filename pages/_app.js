@@ -28,7 +28,7 @@ function MyApp({ Component, pageProps }) {
   	    <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
   	    <div>
         <button className="themebtn" onClick={() => setDarkMode(!darkMode)}>
-          {darkMode ? 'Light Theme' : 'Dark Theme'}
+          {darkMode ? 'L/M' : 'D/M'}
         </button>
       </div>
   	    <GlobalStyles />
